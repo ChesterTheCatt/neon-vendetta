@@ -2,10 +2,13 @@
   "name": "ai-studio-applet",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx server.ts",
     "build": "next build",
-    "start": "tsx server.ts"
+    "start": "tsx server.ts",
     "lint": "eslint .",
     "clean": "next clean"
   },
